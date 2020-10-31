@@ -19,6 +19,9 @@ public:
                 tracksum=0;
             }
         }
+        cout<<sum1;
+        cout<<sum2;
+        cout<<tracksum;
         
         if(sum1<sum2){return -1;}
         return station;
