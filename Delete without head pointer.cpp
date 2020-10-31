@@ -1,8 +1,7 @@
-// { Driver Code Starts
+
 #include<bits/stdc++.h>
 using namespace std;
 
-/* Link list node */
 struct Node {
   int data;
   struct Node *next;
@@ -49,7 +48,6 @@ void insert()
     }
 }
 
-/* Function to print linked list */
 void printList(Node *node)
 {
     while (node != NULL)
@@ -63,7 +61,6 @@ void printList(Node *node)
 
 void deleteNode(Node *node_ptr);
 
-/* Drier program to test above function*/
 int main(void)
 {
     /* Start with the empty list */
